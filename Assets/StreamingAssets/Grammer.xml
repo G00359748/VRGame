@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar xml:lang="en" root="Controls"
+         tag-format="semantics/1.0"
+         version="1.0"
+         xmlns="http://www.w3.org/2001/06/grammar">
+
+  <rule id="Controls">
+    <one-of>
+      <item>
+        <ruleref uri="#up"/>
+      </item>
+      <item>
+        <ruleref uri="#down"/>
+      </item>
+      <item>
+        <ruleref uri="#left"/>
+      </item>
+      <item>
+        <ruleref uri="#right"/>
+      </item>
+      <item>
+        <ruleref uri="#chance"/>
+      </item>
+      <item>
+        <ruleref uri="#move"/>
+      </item>
+      <item>
+        <ruleref uri="#play"/>
+      </item>
+      <item>
+        <ruleref uri="#pause"/>
+      </item>
+      <item>
+        <ruleref uri="#restart"/>
+      </item>
+      <item>
+        <ruleref uri="#menu"/>
+      </item>
+      <item>
+        <ruleref uri="#quit"/>
+      </item>
+      <item>
+        <ruleref uri="#stop"/>
+      </item>
+      <item>
+        <ruleref uri="#fire"/>
+      </item>
+      <item>
+        <ruleref uri="#start"/>
+      </item>
+      <item>
+        <ruleref uri="#instructions"/>
+      </item>
+      <item>
+        <ruleref uri="#credits"/>
+      </item>
+      <item>
+        <ruleref uri="#back"/>
+      </item>
+      <item>
+        <ruleref uri="#enter"/>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id ="up">
+    <item>up</item>
+  </rule>
+  <rule id ="down">
+    <item>down</item>
+  </rule>
+  <rule id ="left">
+    <item>left</item>
+  </rule>
+  <rule id ="right">
+    <item>right</item>
+  </rule>
+  <rule id ="play">
+    <item>play</item>
+  </rule>
+  <rule id ="pause">
+    <item>right</item>
+  </rule>
+  <rule id ="restart">
+    <item>restart</item>
+  </rule>
+  <rule id ="menu">
+    <item>menu</item>
+  </rule>
+  <rule id ="quit">
+    <item>quit</item>
+  </rule>
+  <rule id ="chance">
+    <item>chance</item>
+  </rule>
+  <rule id ="move">
+    <item>move</item>
+  </rule>
+  <rule id ="stop">
+    <item>stop</item>
+  </rule>
+  <rule id ="fire">
+    <item>stop</item>
+  </rule>
+  <rule id ="start">
+    <item>start</item>
+  </rule>
+  <rule id ="instructions">
+    <item>instructions</item>
+  </rule>
+  <rule id ="credits">
+    <item>credits</item>
+  </rule>
+  <rule id ="back">
+    <item>back</item>
+  </rule>
+  <rule id ="enter">
+    <item>enter</item>
+  </rule>
+  
+</grammar>
+  
